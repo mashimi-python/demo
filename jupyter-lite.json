@@ -9,12 +9,18 @@
     "federated_extensions": [
       {
         "extension": "./extension",
+        "load": "static/remoteEntry.47e03a981ca5c36e8c77.js",
+        "name": "@axlair/jupyterlab_vim",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
         "load": "static/remoteEntry.5586bbdee77c5d90dd3c.js",
         "name": "@jupyter-widgets/jupyterlab-manager"
       },
       {
         "extension": "./extension",
-        "load": "static/remoteEntry.a92db890f87c8d87c4ff.js",
+        "load": "static/remoteEntry.7feadbb6c7955046428d.js",
         "name": "@jupyterlite/pyodide-kernel-extension"
       }
     ],
@@ -307,7 +313,7 @@
           ]
         },
         "pipliteUrls": [
-          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=92fb94bb6b19fb3ccc1aed0629d29d98cc75f09cecc3ad3425191f97f6c2c661"
+          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=4bc2d4fa8aed67d3b2f20ac4a2c51ea7bd780d5ca9b6659ff1dd00fdc757ab48"
         ]
       }
     }
