@@ -1,0 +1,7 @@
+{
+  "@axlair/jupyterlab_vim:plugin": {
+    "enabled": false,
+    "enabledInEditors": false,
+    "extraKeybindings": []
+  }
+}

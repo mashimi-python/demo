@@ -20,8 +20,13 @@
       },
       {
         "extension": "./extension",
-        "load": "static/remoteEntry.7feadbb6c7955046428d.js",
+        "load": "static/remoteEntry.a92db890f87c8d87c4ff.js",
         "name": "@jupyterlite/pyodide-kernel-extension"
+      },
+      {
+        "extension": "./extension",
+        "load": "static/remoteEntry.5515fbe34d49b1d056e0.js",
+        "name": "ipydatagrid"
       }
     ],
     "fileTypes": {
@@ -313,8 +318,15 @@
           ]
         },
         "pipliteUrls": [
-          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=4bc2d4fa8aed67d3b2f20ac4a2c51ea7bd780d5ca9b6659ff1dd00fdc757ab48"
+          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=0814dddd0caa852017065532be5d4f8c1116e74a78d71b2ba8b15c2daf62fc60"
         ]
+      }
+    },
+    "settingsOverrides": {
+      "@axlair/jupyterlab_vim:plugin": {
+        "enabled": false,
+        "enabledInEditors": false,
+        "extraKeybindings": []
       }
     }
   },
